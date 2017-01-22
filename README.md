@@ -1,5 +1,6 @@
 ## Realtek 802.11ac (rtl8812au)
 
+<<<<<<< HEAD
 This is a fork of the Realtek 802.11ac (rtl8812au) v4.2.2 (7502.20130507)
 driver altered to build on Linux kernel version >= 3.10.
 
@@ -79,3 +80,9 @@ $ sudo dkms remove -m 8812au -v 4.2.2 --all
 - D-Link DWA-171
   - [D-Link page](http://www.dlink.com/no/nb/home-solutions/connect/adapters/dwa-171-wireless-ac-dual-band-usb-adapter)
   - [wikidevi page](http://wikidevi.com/wiki/D-Link_DWA-171_rev_A1)
+=======
+Is a good idea, when "sudo apt-get install rtl8812au-dkms" not work.
+It is from gnab and armbian source
+I have testet whit tow compiller arm-linux-gnueabihf and arm-none-eabi, 
+but is stopp in load the driver on plug the Stick in system.
+>>>>>>> 0d1facef6c4df04106d423a3f8976ac2d4305928
