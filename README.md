@@ -10,6 +10,8 @@ Driver work for Networmanager "nmtui-connect"
 
 My Source is from gnab.
 
+But why not work "sudo apt-get install rtl8812au-dkms"
+
 # Work on Armbian
 
 sudo apt-get install binutils-arm-none-eabi gcc-arm-none-eabi
