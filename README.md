@@ -2,7 +2,7 @@
 
 Hallo,
 
-I have make a littel patch for Armbian_5.24_Orangepizero_Ubuntu_xenial_3.4.113 whit Upgrade and 
+I have make a littel patch for Armbian_5.24_Orangepizero_Ubuntu_xenial_3.4.113 whith Upgrade and 
 Edimax EW-7811UTC AC600 whith RTL8812 or RTL8821 chipset.
 The driver is wihtout fully Support for iw, wavemoon, and etc.
 
