@@ -736,7 +736,7 @@ ARCH := arm
 CROSS_COMPILE := /usr/bin/arm-none-eabi-
 KVER  := $(shell uname -r)
 KSRC ?= /lib/modules/$(KVER)/build
-#MODDESTDIR := /lib/modules/$(KVER)/kernel/drivers/net/wireless/
+MODDESTDIR := /lib/modules/$(KVER)/kernel/drivers/net/wireless/
 _PLATFORM_FILES += platform/platform_ARM_SUNxI_usb.o
 endif
 
