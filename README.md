@@ -10,7 +10,7 @@ Driver work for Networmanager "nmtui-connect"
 
 My Source is from gnab.
 
-# Work
+# Work on Armbian
 
 sudo apt-get install binutils-arm-none-eabi gcc-arm-none-eabi
 
