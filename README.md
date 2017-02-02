@@ -26,9 +26,9 @@ make
 
 sudo make install
 
-reboot
+sudo reboot
 
-nmtui-connect or nmtui
+sudo nmtui-connect or sudo nmtui
 
 # fine
 
