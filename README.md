@@ -1,10 +1,40 @@
 ## Is very experimental
-Is a good idea, when ARMbian "sudo apt-get install rtl8812au-dkms" not work.
-It is from gnab and armbian source
-I have testet whit tow compiller arm-linux-gnueabihf and arm-none-eabi, 
-Standart not work "arm-linux-gnueabihf", but nightly work.
-after "sudo apt-get install 
-arm-none-eabi work all
 
-arm-linux-gnueabihf
->>>>>>> 0d1facef6c4df04106d423a3f8976ac2d4305928
+Hallo,
+
+I have make a littel patch for Armbian_5.24_Orangepizero_Ubuntu_xenial_3.4.113 wiht Upgrade and 
+Edimax EW-7811UTC AC600 whith RTL8812 or RTL8821 chipset.
+The driver is wihtout fully Support for iw, wavemoon, and etc.
+
+Driver work for Networmanager "nmtui-connect" 
+
+My Source is from gnab.
+
+# Work
+
+sudo apt-get install binutils-arm-none-eabi gcc-arm-none-eabi
+
+mkdir wlan-utc
+
+git clone https://github.com/fixsmo/arm-rtl8812au.git wlan-utc
+
+cd wlan-utc
+
+make
+
+sudo make install
+
+reboot
+
+nmtui-connect or nmtui
+
+# fine
+
+#option 
+change in Makefile
+from  CONFIG_PLATFORM_ARM_RPI = y CONFIG_PLATFORM_ARM_SUNxI = n
+to    CONFIG_PLATFORM_ARM_RPI = n CONFIG_PLATFORM_ARM_SUNxI = y
+
+Have a good Day
+
+
