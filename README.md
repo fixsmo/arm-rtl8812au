@@ -36,8 +36,9 @@ from  CONFIG_PLATFORM_ARM_RPI = y CONFIG_PLATFORM_ARM_SUNxI = n
 
 to    CONFIG_PLATFORM_ARM_RPI = n CONFIG_PLATFORM_ARM_SUNxI = y
 
-Have a good Day
 
-Bay
+# Have a good Day
+
+# Bay
 
 
