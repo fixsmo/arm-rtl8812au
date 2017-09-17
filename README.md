@@ -31,6 +31,16 @@ sudo reboot
 sudo nmtui-connect or sudo nmtui
 
 # fine
+# or
+
+cd wlan-utc
+
+sudo chmod +x install.sh
+
+sudo -s
+
+./install.sh
+
 
 option 
 change in Makefile
